@@ -25,6 +25,7 @@ ul {
     border: 1px solid #D0D0D0;
     margin-left: 50%;
     transform: translateX(-50%);
+    align-items: center;
 }
 li {
     padding: 5px;
@@ -35,7 +36,11 @@ li {
     color: #fff;
 }
 .checked { 
+    display: flex;
     background-color: #04D361;
+    height: 100%;
+    flex-direction: column;
+    padding: 18px 0;
 }
 .checked i{
     background-color: #04D361!important;
@@ -46,7 +51,7 @@ li {
     background-color: #19181F;
     color: gray;
     width: 15px;
-    height: 15px;
+    height: 100%;
     top: 45%;
     margin: auto 10px;
     transition: all .4s;
